@@ -1,0 +1,23 @@
+<Application x:Class="MorseCode.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="Accent" Color="#166B63"/>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="16,9"/>
+            <Setter Property="Margin" Value="0,0,8,0"/>
+            <Setter Property="Background" Value="#E5EEEB"/>
+            <Setter Property="BorderBrush" Value="#BDCCC7"/>
+            <Setter Property="Foreground" Value="#163E38"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Padding" Value="10,7"/>
+            <Setter Property="MinWidth" Value="155"/>
+        </Style>
+        <Style TargetType="TabItem">
+            <Setter Property="Padding" Value="20,10"/>
+        </Style>
+    </Application.Resources>
+</Application>
